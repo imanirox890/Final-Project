@@ -1,0 +1,296 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #e3dfd5;
+  margin: 0 auto;
+}
+
+div.headercontainer {
+  width: 100%;
+  height:130px;
+  background-color: #305673;
+}
+
+div.container {
+  width: 960px;
+  margin: 0 auto;
+  padding-top: 12px;
+}
+
+div.header h3 {
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+div.headericons {
+  position: absolute;
+  padding-right: 50px;
+  top: 12px;
+  right: 0;
+}
+
+div.headericons img {
+  padding-right: 10px;
+}
+
+.navigation ul {
+  color: white;
+  list-style: none;
+  font-family: helvetica;
+  font-size: 16px;
+  padding-top: 20px;
+  margin-left: -150px;
+}
+
+.navigation ul li{
+  display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+div.searchcontainer {
+  position: absolute;
+  padding-right: 50px;
+  top: 75px;
+  right: 0;
+}
+
+.Catalog input[type=text] {
+    width: 400px;
+    height: 38px;
+    font-family: helvetica;
+    font-size: 18px;
+    text-indent: 15px;
+    border: none;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 5px;
+}
+
+.searchbutton {
+    width: 56px;
+    height: 38px;
+    background-color: #e4b833;
+    background-image: url("../images/icons/search.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+div.bodycontainer {
+  width: 100%;
+  height: 804px;
+}
+
+div.miniheader h4 {
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 15px;
+  margin-left: 40px;
+  margin-top: 35px;
+  color: #000000;
+}
+
+div.smallimages {
+  height: 205px;
+  width: 60px;
+  margin-left: 40px;
+  float: left;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+div.smallimages img {
+  padding-bottom: 20px;
+}
+
+div.largeimage {
+  height: 300px;
+  width: 300px;
+  margin-left: 20px;
+  padding-bottom: 20px;
+  float: left;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+div.productdetails {
+  width: 300px;
+  margin-left: 120px;
+  padding-bottom: 20px;
+  float: left;
+  margin-top: 20px;
+}
+
+div.productdetails h1 {
+  width: 100%;
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 31px;
+  margin-top: 0;
+  color: #305673;
+}
+
+div.productdetails img {
+  padding-right: 12px;
+}
+
+ul.details {
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 17px;
+  margin-left: -22px;
+}
+
+div.cartcontainer {
+  height: 380px;
+  float: right;
+  margin-top: 20px;
+  margin-right: 40px;
+}
+
+.addbutton {
+    width: 214px;
+    height: 45px;
+    background-color: #e4b833;
+    border: none;
+    font-family: helvetica;
+    font-weight: lighter;
+    font-size: 22px;
+    color: #000000;
+}
+
+div.total {
+  height: 30px;
+  margin-top: 20px;
+}
+
+p.price {
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 22px;
+  margin: 0px;
+  margin-bottom: 15px;
+  margin-right: 78px;
+  float: left;
+  text-align: left;
+}
+
+p.totalprice {
+  font-family: helvetica;
+  font-size: 22px;
+  color: #22881d;
+  margin: 0px;
+}
+
+div.productstatus {
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+p.status {
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 22px;
+  margin: 0px;
+  margin-bottom: 15px;
+  margin-right: 78px;
+  float: left;
+  text-align: left;
+}
+
+p.stock {
+  font-family: helvetica;
+  font-size: 22px;
+  color: #22881d;
+  margin: 0px;
+  margin-left: -11px;
+  float: left;
+}
+
+div.protectionplan {
+  margin-bottom: 20px;
+}
+
+div.delivery {
+  width: 125px;
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 12px;
+  margin-top: 0px;
+  margin-right: 88px
+}
+
+div.moreitems {
+  float: left;
+}
+
+div.moreitems h1 {
+  width: 100%;
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 31px;
+  margin-left: 40px;
+  margin-top: 0;
+  color: #305673;
+}
+
+div.deals {
+  width: 100%;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+div.deals img {
+  padding-right: 20px;
+}
+
+div.footercontainer {
+  width: 100%;
+  height:140px;
+  background-color: #305673;
+}
+
+div.footercontainer h3 {
+  color: #ffffff;
+  margin-left: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 20px;
+}
+
+p.footer {
+  font-family: Bodoni 72 Smallcaps;
+  font-size: 34px;
+  color: #ffffff;
+  margin-left: 40px;
+}
+
+p.footernotes {
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 14px;
+  color: #ffffff;
+  margin-left: 40px;
+  margin-top: 10px;
+  float: left;
+}
+
+p.copyright {
+  width: 100%;
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  float: left;
+  margin-top: 0;
+}
