@@ -201,7 +201,7 @@ select {
   font-size: 18px;
   text-indent: 15px;
   color: #c0c0bf;
-  background-image: url("../images/icons/dropdown.png");
+  background-image: url("icon/dropdown.png");
   background-position: 92px 14px;
   background-repeat: no-repeat;
 }
